@@ -1,0 +1,16 @@
+{
+  "name": "cartons-atelier",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Compose un carton documentaire SVG à partir de quatre lignes de texte.",
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test.mjs",
+    "demo": "node main.mjs example.json exemple-sortie.svg"
+  }
+}
+
